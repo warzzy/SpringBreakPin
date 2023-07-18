@@ -1,0 +1,31 @@
+2023-07-11 21:48:29,067 : INFO : root : Loading config.
+2023-07-11 21:48:29,070 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-07-11 21:48:29,071 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\c7ddc35c564c409ccec16ce42249e5f8.mpf_cache
+2023-07-11 21:48:29,140 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\b77c3901e90ec7d7cc601651512a0021.mpf_cache
+2023-07-11 21:48:29,141 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\a5b2fce8b210d64acc95275c2c9a2339.mpf_cache
+2023-07-11 21:48:29,141 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.0
+2023-07-11 21:48:29,141 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-07-11-21-48-29-mpf-DESKTOP-VQ7DOMB.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-07-11 21:48:29,142 : INFO : Machine : MPF path: C:\Users\warzz\AppData\Local\Programs\Python\Python39\lib\site-packages\mpf
+2023-07-11 21:48:29,142 : INFO : Machine : Machine path: d:\MPF\springbreak
+2023-07-11 21:48:29,142 : INFO : Machine : Platform: win32
+2023-07-11 21:48:29,142 : INFO : Machine : Python executable location: C:\Users\warzz\AppData\Local\Programs\Python\Python39\python.exe
+2023-07-11 21:48:29,142 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-07-11 21:48:29,143 : INFO : Machine : Initialise MPF.
+2023-07-11 21:48:29,262 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-07-11 21:48:29,296 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-07-11 21:48:29,296 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.0', 'prev_value': None, 'change': True}
+2023-07-11 21:48:29,296 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-07-11 21:48:29,296 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-07-11 21:48:29,304 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2023-07-11 21:48:29,304 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-07-11 21:48:29,304 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-07-11 21:48:29,304 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2023-07-11 21:48:29,304 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-07-11 21:48:29,304 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-07-11 21:48:29,312 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-07-11 21:48:29,313 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2023-07-11 21:48:29,314 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2023-07-11 21:48:32,813 : INFO : Machine : Starting the main run loop.
+2023-07-11 21:48:32,813 : INFO : Machine : Shutting down...
+2023-07-11 21:48:32,813 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-07-11 21:48:33,835 : INFO : root : MPF run loop ended.

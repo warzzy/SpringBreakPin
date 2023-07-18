@@ -1,0 +1,6 @@
+2023-07-16 23:54:01,223 : INFO : root : Loading config.
+2023-07-16 23:54:01,226 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-07-16 23:54:01,226 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\999c2299d6c39d2b6f23a88f71ed49fc.mpf_cache
+2023-07-16 23:54:01,299 : INFO : ConfigProcessor : Loading config from file C:\Users\warzz\AppData\Local\Programs\Python\Python39\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2023-07-16 23:54:01,304 : INFO : ConfigProcessor : Loading config: C:\Users\warzz\AppData\Local\Programs\Python\Python39\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2023-07-16 23:54:01,305 : INFO : ConfigProcessor : Loading config from file D:\MPF\springbreak\modes\attract\config\attract.yaml.

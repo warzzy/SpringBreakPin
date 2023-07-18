@@ -1,0 +1,15 @@
+#config_version=5
+
+keyboard:
+  a:
+    switch: s_flipper_left
+  d:
+    switch: s_flipper_right
+  s:
+    switch: s_start_button
+  '1':
+    switch: s_drain_detect
+  '2':
+    switch: s_trough_1
+  '3':
+    switch: s_plunger_exit

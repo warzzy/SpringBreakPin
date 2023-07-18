@@ -1,0 +1,105 @@
+#show_version=5
+##! show: middle_chase
+
+- time: 0
+  lights:
+    led_51: on-f800ms
+- time: '+1'
+  lights:
+    led_52: on-f800ms
+- time: '+1'
+  lights:
+    led_53: on-f800ms
+- time: '+1'
+  lights:
+    led_54: on-f800ms
+- time: '+1'
+  lights:
+    led_55: on-f800ms
+- time: '+1'
+  lights:
+    led_56: on-f800ms
+- time: '+1'
+  lights:
+    led_57: on-f800ms
+- time: '+1'
+  lights:
+    led_58: on-f800ms
+- time: '+1'
+  lights:
+    led_59: on-f800ms
+- time: '+1'
+  lights:
+    led_60: on-f800ms
+- time: '+1'
+  lights:
+    led_61: on-f800ms
+- time: '+1'
+  lights:
+    led_62: on-f800ms
+- time: '+1'
+  lights:
+    led_63: on-f800ms
+- time: '+1'
+  lights:
+    led_64: on-f800ms
+- time: '+1'
+  lights:
+    led_65: on-f800ms
+- time: '+1'
+  lights:
+    led_66: on-f800ms
+- time: '+1'
+  lights:
+    led_67: on-f800ms
+- time: '+1'
+  lights:
+    led_51: off-f800ms
+- time: '+1'
+  lights:
+    led_52: off-f800ms
+- time: '+1'
+  lights:
+    led_53: off-f800ms
+- time: '+1'
+  lights:
+    led_54: off-f600ms
+- time: '+1'
+  lights:
+    led_55: off-f600ms
+- time: '+1'
+  lights:
+    led_56: off-f600ms
+- time: '+1'
+  lights:
+    led_57: off-f600ms
+- time: '+1'
+  lights:
+    led_58: off-f600ms
+- time: '+1'
+  lights:
+    led_59: off-f600ms
+- time: '+1'
+  lights:
+    led_60: off-f300ms
+- time: '+1'
+  lights:
+    led_61: off-f300ms
+- time: '+1'
+  lights:
+    led_62: off-f300ms
+- time: '+1'
+  lights:
+    led_63: off-f300ms
+- time: '+1'
+  lights:
+    led_64: off-f300ms
+- time: '+1'
+  lights:
+    led_65: off-f200ms
+- time: '+1'
+  lights:
+    led_66: off-f200ms
+- time: '+1'
+  lights:
+    led_67: off-f100ms

@@ -1,0 +1,34 @@
+#config_version=5
+
+switches:
+  s_flipper_left:
+    number: 0-0-1
+    tags: flipper_left
+  s_flipper_right:
+    number: 0-0-2
+    tags: flipper_right
+  s_start_button:
+    number: 0-0-3
+    tags: start
+  s_popbumper_1:
+    number: 0-0-8
+    tags: popbumpers
+  s_popbumper_2:
+    number: 0-0-9
+    tags: popbumpers
+  s_popbumper_3:
+    number: 0-0-10
+    tags: popbumpers
+  s_slingshot:
+    number: 0-0-11
+  s_drain_detect:
+    number: 0-0-27
+  s_trough_1:
+    number: 0-0-26
+  s_trough_2:
+    number: 0-0-25
+  s_plunger_detect:
+    number: 0-0-18
+  s_plunger_exit:
+    number: 0-0-17
+    tags: playfield_active

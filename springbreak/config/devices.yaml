@@ -1,0 +1,35 @@
+#config_version=5
+
+ball_devices:
+  bd_drain:
+    ball_switches: s_drain_detect
+    eject_coil: c_drain_kicker
+    eject_targets: bd_trough
+    tags: home, drain
+  bd_trough:
+    entrance_switch: s_trough_1
+    entrance_switch_full_timeout: 500ms
+    eject_coil: c_trough_eject
+    eject_targets: bd_plunger
+    ball_capacity: 4
+    tags: home, trough
+    eject_timeouts: 3s
+  bd_plunger:
+    ball_switches: s_plunger_detect
+    eject_coil: c_plunger
+    player_controlled_eject_event: s_flipper_right_active
+
+playfields:
+  playfield:
+    tags: default
+    default_source_device: bd_plunger  # use None in steps before 8
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_flipper_left
+  right_flipper:
+    main_coil: c_flipper_right_main
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_flipper_right

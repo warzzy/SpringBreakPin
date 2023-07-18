@@ -1,0 +1,31 @@
+events:
+  game_ended: 10
+  game_started: 15
+player:
+  score:
+    average: 0.0
+    top:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    total: 10
+switches:
+  s_drain_detect: 40
+  s_flipper_left: 3
+  s_flipper_right: 38
+  s_plunger_detect: 36
+  s_plunger_exit: 18
+  s_popbumper_1: 0
+  s_popbumper_2: 0
+  s_popbumper_3: 0
+  s_slingshot: 0
+  s_start_button: 0
+  s_trough_1: 26
+  s_trough_2: 0

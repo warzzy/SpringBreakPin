@@ -1,0 +1,5 @@
+#config_version=5
+##! mode: my_mode
+mode:
+  start_events: ball_started
+  priority: 100

@@ -1,0 +1,299 @@
+2023-07-18 08:05:25,293 : INFO : root : Loading config.
+2023-07-18 08:05:25,296 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-07-18 08:05:25,297 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\999c2299d6c39d2b6f23a88f71ed49fc.mpf_cache
+2023-07-18 08:05:25,370 : WARNING : ConfigProcessor : Config file in cache changed: D:\MPF\springbreak\modes\attract\config\attract.yaml
+2023-07-18 08:05:25,371 : INFO : ConfigProcessor : Loading config from file C:\Users\warzz\AppData\Local\Programs\Python\Python39\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2023-07-18 08:05:25,376 : INFO : ConfigProcessor : Loading config: C:\Users\warzz\AppData\Local\Programs\Python\Python39\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2023-07-18 08:05:25,376 : INFO : ConfigProcessor : Loading config from file D:\MPF\springbreak\modes\attract\config\attract.yaml.
+2023-07-18 08:05:25,382 : INFO : ConfigProcessor : Loading config: D:\MPF\springbreak\modes\attract\config\attract.yaml
+2023-07-18 08:05:25,382 : INFO : ConfigProcessor : Config file cache created: C:\Users\warzz\AppData\Local\Temp\c00853733793eb2446d656064dafde5d.mpf_cache
+2023-07-18 08:05:25,383 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\a5b2fce8b210d64acc95275c2c9a2339.mpf_cache
+2023-07-18 08:05:25,384 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\f8d84beef5f99d10c74fd589715eb307.mpf_cache
+2023-07-18 08:05:25,384 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\7f5bbc5ecfab115c460c30c504fda2c5.mpf_cache
+2023-07-18 08:05:25,385 : WARNING : ConfigProcessor : Config file in cache changed: D:\MPF\springbreak\modes\attract\shows\.\attract_light_show.yaml
+2023-07-18 08:05:25,385 : INFO : ConfigProcessor : Loading config from file D:\MPF\springbreak\modes\attract\shows\.\attract_light_show.yaml.
+2023-07-18 08:05:25,389 : INFO : ConfigProcessor : Loading config: D:\MPF\springbreak\modes\attract\shows\.\attract_light_show.yaml
+2023-07-18 08:05:25,390 : INFO : ConfigProcessor : Config file cache created: C:\Users\warzz\AppData\Local\Temp\77290df36791c7e7128b5328313d258b.mpf_cache
+2023-07-18 08:05:25,390 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\ff056b1a573b15fb22122c35199afb56.mpf_cache
+2023-07-18 08:05:25,395 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\f83280f57d43fe74c700865efa7c2060.mpf_cache
+2023-07-18 08:05:25,400 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\2b4263766d09456b2b98410789c7ad3c.mpf_cache
+2023-07-18 08:05:25,405 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.0
+2023-07-18 08:05:25,405 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-07-18-08-05-25-mpf-DESKTOP-VQ7DOMB.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-07-18 08:05:25,405 : INFO : Machine : MPF path: C:\Users\warzz\AppData\Local\Programs\Python\Python39\lib\site-packages\mpf
+2023-07-18 08:05:25,406 : INFO : Machine : Machine path: D:\MPF\springbreak
+2023-07-18 08:05:25,406 : INFO : Machine : Platform: win32
+2023-07-18 08:05:25,406 : INFO : Machine : Python executable location: C:\Users\warzz\AppData\Local\Programs\Python\Python39\python.exe
+2023-07-18 08:05:25,406 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-07-18 08:05:25,407 : INFO : Machine : Initialise MPF.
+2023-07-18 08:05:25,562 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,600 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,600 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,600 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.0', 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,600 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,600 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,608 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,608 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,608 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,609 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,609 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-07-18 08:05:25,609 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-07-18 08:05:25,630 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-07-18 08:05:25,631 : INFO : SwitchController : Found active switch: ('0-0-26', <Platform.SmartVirtual>) <switch.s_trough_1>
+2023-07-18 08:05:25,633 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2023-07-18 08:05:25,634 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2023-07-18 08:05:27,686 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2023-07-18 08:05:27,687 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2023-07-18 08:05:27,691 : INFO : ball_device.bd_drain : BCH: Initial count: 0
+2023-07-18 08:05:27,692 : INFO : ball_device.bd_drain : State: idle
+2023-07-18 08:05:27,692 : INFO : ball_device.bd_trough : BCH: Initial count: 4
+2023-07-18 08:05:27,692 : INFO : ball_device.bd_trough : State: idle
+2023-07-18 08:05:27,692 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2023-07-18 08:05:27,692 : INFO : ball_device.bd_plunger : State: idle
+2023-07-18 08:05:27,701 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-07-18 08:05:27,709 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.56.1', 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,709 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.56.1 (config_version=5, BCP v1.1,                      Requires MPF API compatibility v0.56.0 or newer)', 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,710 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-07-18 08:05:27,720 : INFO : BallController : Initial balls found: 4
+2023-07-18 08:05:27,721 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,722 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,722 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0.0, 'top': [0, 0, 0, 0, 0, 0, 0, 0, 0], 'total': 9}, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,722 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain_detect'====== Args={'value': 37, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,722 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,722 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,722 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_detect'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,722 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_exit'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-07-18 08:05:27,724 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-07-18 08:05:27,735 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2023-07-18 08:05:27,736 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2023-07-18 08:05:27,736 : INFO : BcpServer : New client connected.
+2023-07-18 08:05:27,740 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:05:27,740 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:27,741 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:27,748 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2023-07-18 08:05:27,748 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2023-07-18 08:05:27,749 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2023-07-18 08:05:27,749 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2023-07-18 08:05:27,749 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2023-07-18 08:05:27,749 : INFO : Mode.attract : Started. Priority: 10
+2023-07-18 08:05:27,750 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-07-18 08:05:27,750 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2023-07-18 08:05:27,750 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2023-07-18 08:05:27,767 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:27,767 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:05:27,767 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:27,767 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:27,768 : INFO : Machine : Starting the main run loop.
+2023-07-18 08:05:30,760 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:30,763 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:33,763 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:33,764 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:36,739 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:36,739 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:39,771 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:05:39,772 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:39,773 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:42,739 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:05:42,742 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:42,743 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:45,740 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:05:45,741 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:45,743 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:48,765 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:05:48,767 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:48,767 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:48,910 : INFO : SwitchController : <<<<<<< 's_trough_2' active >>>>>>>
+2023-07-18 08:05:50,725 : INFO : SwitchController : <<<<<<< 's_trough_1' inactive >>>>>>>
+2023-07-18 08:05:51,741 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:05:51,741 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:51,742 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:52,629 : INFO : SwitchController : <<<<<<< 's_plunger_detect' active >>>>>>>
+2023-07-18 08:05:53,133 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2023-07-18 08:05:53,133 : INFO : ball_device.bd_plunger : Received unexpected ball
+2023-07-18 08:05:53,133 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2023-07-18 08:05:53,134 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2023-07-18 08:05:53,134 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-07-18 08:05:53,134 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-07-18 08:05:53,134 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2023-07-18 08:05:53,135 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-07-18 08:05:53,135 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2023-07-18 08:05:53,135 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 5
+2023-07-18 08:05:53,135 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2023-07-18 08:05:53,135 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-07-18 08:05:53,136 : INFO : ball_device.bd_plunger : Ejecting 1 unexpected balls using path deque([<ball_device.bd_plunger>, <playfield.playfield>])
+2023-07-18 08:05:53,137 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-07-18 08:05:53,137 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-07-18 08:05:53,137 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-07-18 08:05:53,139 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-07-18 08:05:53,140 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-07-18 08:05:53,140 : INFO : ball_device.bd_plunger : State: ejecting
+2023-07-18 08:05:53,141 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2023-07-18 08:05:53,141 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-07-18 08:05:53,142 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-07-18 08:05:53,142 : INFO : coil.c_plunger : Pulsing Driver for 20ms (1.0 pulse_power)
+2023-07-18 08:05:53,142 : INFO : SwitchController : <<<<<<< 's_plunger_detect' inactive >>>>>>>
+2023-07-18 08:05:53,145 : INFO : ball_device.bd_plunger : State: ball_left
+2023-07-18 08:05:53,145 : INFO : ball_device.bd_plunger : Ball left
+2023-07-18 08:05:53,145 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 10.0
+2023-07-18 08:05:54,742 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:05:54,745 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:54,747 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:05:55,287 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2023-07-18 08:05:57,767 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:05:57,769 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:05:57,770 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:00,752 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:00,753 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:00,753 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:01,570 : INFO : SwitchController : <<<<<<< 's_plunger_detect' active >>>>>>>
+2023-07-18 08:06:03,147 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-07-18 08:06:03,147 : INFO : ball_device.bd_plunger : Got timeout (10.0s) before confirm from <playfield.playfield>
+2023-07-18 08:06:03,239 : INFO : ball_device.bd_plunger : Got unknown balls. Assuming a ball returned.
+2023-07-18 08:06:03,239 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2023-07-18 08:06:03,240 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-07-18 08:06:03,240 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-07-18 08:06:03,241 : INFO : ball_device.bd_plunger : State: ejecting
+2023-07-18 08:06:03,241 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2023-07-18 08:06:03,241 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-07-18 08:06:03,242 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-07-18 08:06:03,242 : INFO : coil.c_plunger : Pulsing Driver for 20ms (1.0 pulse_power)
+2023-07-18 08:06:03,242 : INFO : SwitchController : <<<<<<< 's_plunger_detect' inactive >>>>>>>
+2023-07-18 08:06:03,245 : INFO : ball_device.bd_plunger : State: ball_left
+2023-07-18 08:06:03,245 : INFO : ball_device.bd_plunger : Ball left
+2023-07-18 08:06:03,245 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 10.0
+2023-07-18 08:06:03,740 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:03,741 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:03,742 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:06,771 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:06,773 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:06,774 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:09,759 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:09,761 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:09,761 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:11,052 : INFO : SwitchController : <<<<<<< 's_trough_2' inactive >>>>>>>
+2023-07-18 08:06:12,755 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:12,756 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:12,757 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:13,248 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-07-18 08:06:13,248 : INFO : ball_device.bd_plunger : Got timeout (10.0s) before confirm from <playfield.playfield>
+2023-07-18 08:06:13,342 : INFO : ball_device.bd_plunger : Confirming eject because target is playfield and ball did not return.
+2023-07-18 08:06:13,343 : INFO : ball_device.bd_plunger : Eject successful
+2023-07-18 08:06:13,343 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2023-07-18 08:06:13,343 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-07-18 08:06:13,343 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2023-07-18 08:06:13,344 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2023-07-18 08:06:13,344 : INFO : ball_device.bd_plunger : State: idle
+2023-07-18 08:06:15,763 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:15,767 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:15,767 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:18,754 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:18,756 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:18,757 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:21,751 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:21,752 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:21,752 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:24,767 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:24,770 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:24,770 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:26,194 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2023-07-18 08:06:27,757 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:27,757 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:27,757 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:30,760 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:30,763 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:30,764 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:33,743 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:33,743 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:33,744 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:36,761 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:36,765 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:36,765 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:39,770 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:39,772 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:39,772 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:42,771 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:42,774 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:42,774 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:45,749 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:45,749 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:45,751 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:48,754 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:48,757 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:48,758 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:51,752 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:51,753 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:51,753 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:54,759 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:54,762 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:54,762 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:06:57,762 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:06:57,762 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:06:57,763 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:00,751 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:00,754 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:00,755 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:03,768 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:03,771 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:03,771 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:06,749 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:06,750 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:06,751 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:09,762 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:09,764 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:09,764 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:12,778 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:12,780 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:12,781 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:15,748 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:15,748 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:15,749 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:18,767 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:18,769 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:18,770 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:21,776 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:21,779 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:21,779 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:24,781 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:24,784 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:24,784 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:27,768 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:27,769 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:27,770 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:30,775 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:30,778 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:30,778 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:34,093 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:34,094 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:34,094 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:34,911 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2023-07-18 08:07:35,032 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2023-07-18 08:07:35,032 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-07-18 08:07:35,034 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2023-07-18 08:07:35,034 : INFO : BallController : Known balls: 5
+2023-07-18 08:07:35,034 : INFO : BallController : bd_drain contains 0 balls. Tags ['home', 'drain']
+2023-07-18 08:07:35,034 : INFO : BallController : bd_trough contains 4 balls. Tags ['home', 'trough']
+2023-07-18 08:07:35,034 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2023-07-18 08:07:35,034 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2023-07-18 08:07:35,034 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2023-07-18 08:07:36,467 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2023-07-18 08:07:36,752 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2023-07-18 08:07:36,752 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-07-18 08:07:36,753 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2023-07-18 08:07:36,753 : INFO : BallController : Known balls: 5
+2023-07-18 08:07:36,753 : INFO : BallController : bd_drain contains 0 balls. Tags ['home', 'drain']
+2023-07-18 08:07:36,753 : INFO : BallController : bd_trough contains 4 balls. Tags ['home', 'trough']
+2023-07-18 08:07:36,753 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2023-07-18 08:07:36,753 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2023-07-18 08:07:36,753 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2023-07-18 08:07:36,766 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2023-07-18 08:07:36,768 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2023-07-18 08:07:36,768 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2023-07-18 08:07:38,968 : INFO : Machine : Shutting down...
+2023-07-18 08:07:38,968 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-07-18 08:07:38,973 : INFO : root : MPF run loop ended.

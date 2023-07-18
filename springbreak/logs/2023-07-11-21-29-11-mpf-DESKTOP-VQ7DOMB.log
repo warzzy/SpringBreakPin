@@ -1,0 +1,7 @@
+2023-07-11 21:29:11,468 : INFO : root : Loading config.
+2023-07-11 21:29:11,471 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-07-11 21:29:11,471 : WARNING : ConfigProcessor : Config file in cache changed: d:\MPF\springbreak\config\config.yaml
+2023-07-11 21:29:11,472 : INFO : ConfigProcessor : Loading config from file C:\Users\warzz\AppData\Local\Programs\Python\Python39\lib\site-packages\mpf\mpfconfig.yaml.
+2023-07-11 21:29:11,520 : INFO : ConfigProcessor : Loading config: C:\Users\warzz\AppData\Local\Programs\Python\Python39\lib\site-packages\mpf\mpfconfig.yaml
+2023-07-11 21:29:11,521 : INFO : ConfigProcessor : Loading config from file d:\MPF\springbreak\config\config.yaml.
+2023-07-11 21:29:11,523 : INFO : ConfigProcessor : Loading config: d:\MPF\springbreak\config\config.yaml

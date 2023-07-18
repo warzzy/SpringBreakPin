@@ -1,0 +1,52 @@
+#config_version=5
+
+coils:
+  c_flipper_left_main:
+    number: 0-0-8
+    tags: flipper_left
+  c_flipper_left_hold:
+    number: 0-0-9
+    allow_enable: true
+  c_flipper_right_main:
+    number: 0-0-10
+    tags: flipper_right
+  c_flipper_right_hold:
+    number: 0-0-11
+    allow_enable: true
+  c_slingshot:
+    number: 0-0-0
+    tags: slingshot
+  c_popbumper_1:
+    number: 0-0-12
+    tags: popbumper_1
+  c_popbumper_2:
+    number: 0-0-13
+    tags: popbumper_2
+  c_popbumper_3:
+    number: 0-0-14
+    tags: popbumper_3
+  c_trough_eject:
+     number: 0-0-15
+     default_pulse_ms: 1000
+     allow_enable: true
+  c_drain_kicker:
+    number: 0-0-2
+    default_pulse_ms: 20
+  c_plunger:
+    number: 0-0-7
+    default_pulse_ms: 20
+    tags: plunger
+
+autofire_coils:
+  ac_popbumper_1:
+    coil: c_popbumper_1
+    switch: s_popbumper_1
+  ac_popbumper_2:
+    coil: c_popbumper_2
+    switch: s_popbumper_2
+  ac_popbumper_3:
+    coil: c_popbumper_3
+    switch: s_popbumper_3
+  ac_slingshot:
+    coil: c_slingshot
+    switch: s_slingshot

@@ -1,0 +1,46 @@
+2023-07-11 14:59:59,765 : INFO : root : Loading config.
+2023-07-11 14:59:59,768 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-07-11 14:59:59,768 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\c7ddc35c564c409ccec16ce42249e5f8.mpf_cache
+2023-07-11 14:59:59,824 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\b77c3901e90ec7d7cc601651512a0021.mpf_cache
+2023-07-11 14:59:59,824 : INFO : ConfigProcessor : Loading config from cache: C:\Users\warzz\AppData\Local\Temp\a5b2fce8b210d64acc95275c2c9a2339.mpf_cache
+2023-07-11 14:59:59,825 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.0
+2023-07-11 14:59:59,825 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-07-11-14-59-59-mpf-DESKTOP-VQ7DOMB.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-07-11 14:59:59,825 : INFO : Machine : MPF path: C:\Users\warzz\AppData\Local\Programs\Python\Python39\lib\site-packages\mpf
+2023-07-11 14:59:59,825 : INFO : Machine : Machine path: d:\MPF\springbreak
+2023-07-11 14:59:59,825 : INFO : Machine : Platform: win32
+2023-07-11 14:59:59,825 : INFO : Machine : Python executable location: C:\Users\warzz\AppData\Local\Programs\Python\Python39\python.exe
+2023-07-11 14:59:59,825 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-07-11 14:59:59,826 : INFO : Machine : Initialise MPF.
+2023-07-11 14:59:59,937 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,973 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,973 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.0', 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,973 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,973 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,981 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,981 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,981 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,981 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,981 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,981 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-07-11 14:59:59,988 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-07-11 14:59:59,992 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-07-11 14:59:59,994 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-07-11 14:59:59,995 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,995 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,995 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2023-07-11 14:59:59,995 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-07-11 15:00:00,004 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2023-07-11 15:00:00,004 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2023-07-11 15:00:00,004 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2023-07-11 15:00:00,005 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2023-07-11 15:00:00,005 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2023-07-11 15:00:00,005 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2023-07-11 15:00:00,005 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2023-07-11 15:00:00,005 : INFO : Mode.attract : Started. Priority: 10
+2023-07-11 15:00:00,005 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-07-11 15:00:00,005 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2023-07-11 15:00:00,005 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2023-07-11 15:00:00,014 : INFO : Machine : Starting the main run loop.
+2023-07-11 15:00:04,709 : INFO : Machine : Shutting down...
+2023-07-11 15:00:04,709 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-07-11 15:00:04,711 : INFO : root : MPF run loop ended.

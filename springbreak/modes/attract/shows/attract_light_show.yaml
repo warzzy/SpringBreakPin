@@ -1,0 +1,30 @@
+#show_version=5
+##! show: attract_light_show
+
+- duration: 1
+  shows:
+    middle_chase:
+      loops: 1
+      speed: 8
+    loop_chase:
+      loops: 1
+      speed: 6.5
+  lights:
+    gi: 0-f800ms
+    playfield_plastics: ff-f800ms
+- duration: 1
+  lights:
+    gi: ff-f800ms
+    playfield_plastics: 0-f800ms
+- duration: 1
+  shows:
+     upper_chase:
+      loops: 1
+      speed: 7.7
+  lights:
+    gi: 0-f800ms
+    #playfield_inserts: ff
+- duration: 1
+  lights:
+    gi: ff-f800ms
+    playfield_inserts: 0-f800ms
