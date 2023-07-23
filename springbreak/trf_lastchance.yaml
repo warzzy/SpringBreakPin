@@ -2,7 +2,7 @@
 ##! mode: lastchance
 mode:
   start_events: ball_started
-  priority: 100
+  priority: 200
 
 shots:
   shot_left_ro:
@@ -13,6 +13,9 @@ shots:
     #profile: swingshot_profile
   shot_right_ro:
     switch: s_right_ro
+    control_events:
+      - events: ball_ending
+        state: 0
     show_tokens:
       led: led_49
     advance_events: no_advance_shot_right_ro
@@ -42,6 +45,7 @@ ball_saves:
     enable_events: lastchance_shots_lit_hit
     auto_launch: true
     balls_to_save: 1
+    early_ball_save_events: s_left_ro_active, s_right_ro_active
   
 light_player:
   ball_save_lastchance_enabled:
