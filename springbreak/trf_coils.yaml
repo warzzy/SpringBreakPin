@@ -42,6 +42,9 @@ coils:
   c_dt_right_reset:
     number: 0-0-5
     tags: dt_reset_right
+  c_upkicker:
+    number: 0-0-6
+    tags: upkicker
 
 autofire_coils:
   ac_popbumper_1:
