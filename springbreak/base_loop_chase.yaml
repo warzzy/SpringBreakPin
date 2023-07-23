@@ -1,0 +1,68 @@
+#show_version=5
+##! show: base_loop_chase
+
+
+
+- time: 0
+  lights:
+    led_40: on-f800ms
+- time: '+1'
+  lights:
+    led_41: on-f800ms
+- time: '+1'
+  lights:
+    led_35: on-f800ms
+- time: '+1'
+  lights:
+    led_26: on-f800ms
+- time: '+1'
+  lights:
+    led_27: on-f800ms
+- time: '+1'
+  lights:
+    led_28: on-f800ms
+- time: '+1'
+  lights:
+    led_29: on-f800ms
+- time: '+1'
+  lights:
+    led_30: on-f800ms
+- time: '+1'
+  lights:
+    led_31: on-f800ms
+- time: '+1'
+  lights:
+    led_32: on-f800ms
+
+
+- time: '+1'
+  lights:
+    led_40: off-f800ms
+- time: '+1'
+  lights:
+    led_41: off-f800ms
+- time: '+1'
+  lights:
+    led_35: off-f800ms
+- time: '+1'
+  lights:
+    led_26: off-f800ms
+- time: '+1'
+  lights:
+    led_27: off-f800ms
+- time: '+1'
+  lights:
+    led_28: off-f800ms
+- time: '+1'
+  lights:
+    led_29: off-f800ms
+- time: '+1'
+  lights:
+    led_30: off-f800ms
+- time: '+1'
+  lights:
+    led_31: off-f800ms
+- time: '+1'
+  lights:
+    led_32: off-f800ms
+
