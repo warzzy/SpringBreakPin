@@ -1,0 +1,345 @@
+#config_version=5
+
+lights:
+  led_01:
+    number: 0-0-0
+    type: rgb
+    tags: gi
+  led_02:
+    number: 0-0-1
+    type: rgb
+    tags: gi
+  led_03:
+    number: 0-0-2
+    type: rgb
+    tags: upper_rollovers, playfield_inserts
+  led_04:
+    number: 0-0-3
+    type: rgb
+    tags: upper_rollovers, playfield_inserts
+  led_05:
+    number: 0-0-4
+    type: rgb
+    tags: upper_rollovers, playfield_inserts
+  led_06:
+    number: 0-0-5
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_07:
+    number: 0-0-6
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_08:
+    number: 0-0-7
+    type: rgb
+    tags: gi
+  led_09:
+    number: 0-0-8
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_10:
+    number: 0-0-9
+    type: rgb
+    tags: l_upper_splits, playfield_plastics
+  led_11:
+    number: 0-0-10
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_12:
+    number: 0-0-11
+    type: rgb
+    tags: l_upper_splits, playfield_plastics
+  led_13:
+    number: 0-0-12
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_14:
+    number: 0-0-13
+    type: rgb
+    tags: l_upper_splits, playfield_plastics
+  led_15:
+    number: 0-0-14
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_16:
+    number: 0-0-15
+    type: rgb
+    tags: l_upper_splits, playfield_plastics
+  led_17:
+    number: 0-0-16
+    type: rgb
+    tags: gi
+  led_18:
+    number: 0-0-17
+    type: rgb
+    tags: l_right_extraball, playfield_inserts
+  led_19:
+    number: 0-0-18
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_20:
+    number: 0-0-19
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_21:
+    number: 0-0-20
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_22:
+    number: 0-0-21
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_23:
+    number: 0-0-22
+    type: rgb
+    tags: gi
+  led_24:
+    number: 0-0-23
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_25:
+    number: 0-0-24
+    type: rgb
+    tags: l_upper_chain, playfield_inserts
+  led_26:
+    number: 0-0-25
+    type: rgb
+    tags: l_loop, playfield_inserts
+  led_27:
+    number: 0-0-26
+    type: rgb
+    tags: l_loop, playfield_inserts
+  led_28:
+    number: 0-0-27
+    type: rgb
+    tags: l_loop, playfield_inserts
+  led_29:
+    number: 0-0-28
+    type: rgb
+    tags: l_loop, playfield_inserts
+  led_30:
+    number: 0-0-29
+    type: rgb
+    tags: l_loop, playfield_inserts
+  led_31:
+    number: 0-0-30
+    type: rgb
+    tags: l_loop, playfield_inserts
+  led_32:
+    number: 0-0-31
+    type: rgb
+    tags: l_loop, playfield_inserts
+  led_33:
+    number: 0-0-32
+    type: rgb
+    tags: gi
+  led_34:
+    number: 0-0-33
+    type: rgb
+    tags: l_loop_prize, playfield_inserts
+  led_35:
+    number: 0-0-34
+    type: rgb
+    tags: l_loop, playfield_inserts
+  led_36:
+    number: 0-0-35
+    type: rgb
+    tags: l_loop_prize, playfield_inserts
+  led_37:
+    number: 0-0-36
+    type: rgb
+    tags: l_loop_prize, playfield_inserts
+  led_38:
+    number: 0-0-37
+    type: rgb
+    tags: l_numbers, l_number3, playfield_inserts
+  led_39:
+    number: 0-0-38
+    type: rgb
+    tags: l_multiballs, l_right_mb, playfield_inserts
+  led_40:
+    number: 0-0-39
+    type: rgb
+    tags: l_loop, playfield_inserts
+  led_41:
+    number: 0-0-40
+    type: rgb
+    tags: l_loop, playfield_inserts
+  led_42:
+    number: 0-0-41
+    type: rgb
+    tags: l_dog, gi, playfield_plastics
+  led_43:
+    number: 0-0-42
+    type: rgb
+    tags: gi
+  led_44:
+    number: 0-0-43
+    type: rgb
+    tags: l_numbers, l_number1, playfield_inserts
+  led_45:
+    number: 0-0-44
+    type: rgb
+    tags: l_multiballs, l_left_mb, playfield_inserts
+  led_46:
+    number: 0-0-45
+    type: rgb
+    tags: gi
+  led_47:
+    number: 0-0-46
+    type: rgb
+    default_on_color: red
+    tags: l_lastchance, l_lc_upper, playfield_inserts
+  led_48:
+    number: 0-0-47
+    type: rgb
+    tags: gi
+  led_49:
+    number: 0-0-48
+    type: rgb
+    default_on_color: red
+    tags: l_lastchance, l_lc_lower, playfield_inserts
+  led_50:
+    number: 0-0-49
+    type: rgb
+    tags: l_girl, gi, playfield_plastics
+  led_51:
+    number: 0-0-50
+    type: rgb
+    tags: l_shootagain, playfield_inserts
+  led_52:
+    number: 0-0-51
+    type: rgb
+    tags: l_letters, l_letter_N, playfield_inserts
+  led_53:
+    number: 0-0-52
+    type: rgb
+    tags: l_middle_chain, playfield_inserts
+  led_54:
+    number: 0-0-53
+    type: rgb
+    tags: l_letters, l_letter_O, playfield_inserts
+  led_55:
+    number: 0-0-54
+    type: rgb
+    tags: l_middle_chain, playfield_inserts
+  led_56:
+    number: 0-0-55
+    type: rgb
+    tags: l_letters, l_letter_I, playfield_inserts
+  led_57:
+    number: 0-0-56
+    type: rgb
+    tags: l_middle_chain, playfield_inserts
+  led_58:
+    number: 0-0-57
+    type: rgb
+    tags: l_letters, l_letter_T, playfield_inserts
+  led_59:
+    number: 0-0-58
+    type: rgb
+    tags: l_middle_chain, playfield_inserts
+  led_60:
+    number: 0-0-59
+    type: rgb
+    tags: l_letters, l_letter_A2, playfield_inserts
+  led_61:
+    number: 0-0-60
+    type: rgb
+    tags: l_middle_chain, playfield_inserts
+  led_62:
+    number: 0-0-61
+    type: rgb
+    tags: l_letters, l_letter_C, playfield_inserts
+  led_63:
+    number: 0-0-62
+    type: rgb
+    tags: l_middle_chain, playfield_inserts
+  led_64:
+    number: 0-0-63
+    type: rgb
+    tags: l_letters, l_letter_A1, playfield_inserts
+  led_65:
+    number: 0-0-64
+    type: rgb
+    tags: l_middle_chain, playfield_inserts
+  led_66:
+    number: 0-0-65
+    type: rgb
+    tags: l_letters, l_letter_V, playfield_inserts
+  led_67:
+    number: 0-0-66
+    type: rgb
+    tags: l_middle_chain, playfield_inserts
+  led_68:
+    number: 0-0-67
+    type: rgb
+    tags: l_numbers, l_number2, playfield_inserts
+  led_69:
+    number: 0-0-68
+    type: rgb
+    tags: gi
+  led_70:
+    number: 0-0-69
+    type: rgb
+    tags: l_left_extraball, playfield_inserts
+  led_71:
+    number: 0-0-70
+    type: rgb
+    tags: gi
+  led_72:
+    number: 0-0-71
+    type: rgb
+    tags: l_multiballs, l_ramp_mb, playfield_inserts
+  led_73:
+    number: 0-0-72
+    type: rgb
+    tags: gi
+  led_74:
+    number: 0-0-73
+    type: rgb
+    tags: gi
+  led_75:
+    number: 0-0-74
+    type: rgb
+    tags: gi
+  led_76:
+    number: 0-0-75
+    type: rgb
+    tags: l_popbumpers, gi, playfield_plastics
+  led_77:
+    number: 0-0-76
+    type: rgb
+    tags: l_popbumpers, gi, playfield_plastics
+  led_78:
+    number: 0-0-77
+    type: rgb
+    tags: l_popbumpers, gi, playfield_plastics
+  led_79:
+    number: 0-0-78
+    type: rgb
+    tags: l_upf_targets, playfield_inserts
+  led_80:
+    number: 0-0-79
+    type: rgb
+    tags: l_upf_targets, playfield_inserts
+  led_81:
+    number: 0-0-80
+    type: rgb
+    tags: l_upf_targets, playfield_inserts
+  led_82:
+    number: 0-0-81
+    type: rgb
+    tags: l_upf_prize, playfield_inserts
+  led_83:
+    number: 0-0-82
+    type: rgb
+    tags: l_upf_prize, playfield_inserts
+  led_84:
+    number: 0-0-83
+    type: rgb
+    tags: l_upf_prize, playfield_inserts
+  led_85:
+    number: 0-0-84
+    type: rgb
+    tags: l_topright_special, playfield_inserts
