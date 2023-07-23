@@ -1,0 +1,63 @@
+#config_version=5
+##! mode: target_mb
+mode:
+  start_events: target_mb_start
+  stop_events: multiball_multiball1_ended
+  priority: 200
+
+shots:
+  shot_ramp:
+    switch: s_ramp
+    show_tokens: 
+      led: led_72
+    control_events:
+      - events: multiball_multiball1_started
+        state: 0
+    advance_events: mode_target_mb_started, advance_shot_ramp
+    profile: rotshot_profile
+  
+  shot_leftlane:
+    switch: s_leftlane
+    show_tokens:
+      led: led_45
+    control_events:
+      - events: multiball_multiball1_started
+        state: 0
+    advance_events: advance_shot_leftlane
+    profile: rotshot_profile
+  
+  shot_rightlane:
+    switch: s_rightlane
+    show_tokens:
+      led: led_39
+    control_events:
+      - events: multiball_multiball1_started
+        state: 0
+    advance_events: advance_shot_rightlane
+    profile: rotshot_profile
+
+multiballs:
+  multiball1:
+    ball_count: 3
+    ball_count_type: add
+    shoot_again: 30s
+    start_events: mb_shots_on_hit
+
+shot_profiles:
+  rotshot_profile:
+    advance_on_hit: false
+    states:
+      - name: off
+        show: off
+      - name: on
+        show: on
+      - name: lit
+        show: on
+
+shot_groups:
+  mb_shots:
+    shots:
+      - shot_ramp
+      - shot_leftlane
+      - shot_rightlane
+    rotate_events: s_popbumper_1_active, s_popbumper_2_active, s_popbumper_3_active
