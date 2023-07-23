@@ -19,11 +19,33 @@ ball_devices:
     eject_coil: c_plunger
     player_controlled_eject_event: s_flipper_right_active
     eject_timeouts: 2s
+  bd_upkicker:
+    entrance_switch: s_upkicker_detect
+    eject_coil: c_upkicker
+    ball_capacity: 1
+    eject_targets: playfield
+    eject_events: test_event1
+    eject_timeouts: 2s
+    tags: home, upkicker
+    
 
 playfields:
   playfield:
     tags: default
     default_source_device: bd_plunger  # use None in steps before 8
+  upper_playfield:
+    tags: upf
+    default_source_device: playfield
+  
+playfield_transfers:
+  def_to_upper:
+    ball_switch: s_ramp_transfer
+    captures_from: playfield
+    eject_target: upper_playfield
+  #upper_to_def:
+    #transfer_events: balldevice_bd_upkicker_eject_success
+    #captures_from: upper_playfield
+    #eject_target: playfield
 
 flippers:
   left_flipper:
