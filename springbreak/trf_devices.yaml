@@ -1,0 +1,66 @@
+#config_version=5
+
+ball_devices:
+  bd_drain:
+    ball_switches: s_drain_detect
+    eject_coil: c_drain_kicker
+    eject_targets: bd_trough
+    tags: home, drain
+  bd_trough:
+    entrance_switch: s_trough_1
+    entrance_switch_full_timeout: 500ms
+    eject_coil: c_trough_eject
+    eject_targets: bd_plunger
+    ball_capacity: 4
+    tags: home, trough
+    eject_timeouts: 3s
+  bd_plunger:
+    ball_switches: s_plunger_detect
+    eject_coil: c_plunger
+    player_controlled_eject_event: s_flipper_right_active
+    eject_timeouts: 2s
+
+playfields:
+  playfield:
+    tags: default
+    default_source_device: bd_plunger  # use None in steps before 8
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_flipper_left
+  right_flipper:
+    main_coil: c_flipper_right_main
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_flipper_right
+
+drop_targets:
+  dt_l_1:
+    switch: s_dt_left_1
+    reset_coil: c_dt_left_reset
+  dt_l_2:
+    switch: s_dt_left_2
+    reset_coil: c_dt_left_reset
+  dt_l_3:
+    switch: s_dt_left_3
+    reset_coil: c_dt_left_reset
+  dt_r_1:
+    switch: s_dt_right_1
+    reset_coil: c_dt_right_reset
+  dt_r_2:
+    switch: s_dt_right_2
+    reset_coil: c_dt_right_reset
+  dt_r_3:
+    switch: s_dt_right_3
+    reset_coil: c_dt_right_reset
+
+drop_target_banks:
+  dt_left:
+    drop_targets: dt_l_1, dt_l_2, dt_l_3
+    reset_coils: c_dt_left_reset
+    reset_on_complete: 1s
+  dt_right:
+    drop_targets: dt_r_1, dt_r_2, dt_r_3
+    reset_coils: c_dt_right_reset
+    reset_on_complete: 1s
