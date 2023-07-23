@@ -1,0 +1,18 @@
+#show_version=5
+##! show: ball_ending_show
+
+- duration: 2.2s
+  slides:
+    ball_end_slide:
+      widgets:
+      - type: text
+        text: 'BALL HAS BEEN DRAINED!'
+        font_size: 50
+      transition:
+        type: push
+        duration: 1s
+        direction: left
+  shows:
+    ball_end_chasedown:
+      speed: 50
+      loops: 0
