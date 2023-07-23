@@ -2,8 +2,8 @@
 ##! mode: target_mb
 mode:
   start_events: target_mb_start
-  stop_events: multiball_multiball1_ended
-  priority: 200
+  stop_events: multiball_multiball1_ended, multiball_multiball2_ended
+  priority: 300
 
 shots:
   shot_ramp:
@@ -11,9 +11,9 @@ shots:
     show_tokens: 
       led: led_72
     control_events:
-      - events: multiball_multiball1_started
+      - events: multiball_multiball1_started, mode_target_mb_ended #control events to clear the state of shot
         state: 0
-    advance_events: mode_target_mb_started, advance_shot_ramp
+    advance_events: mode_target_mb_started, advance_shot_ramp #control events to get initial value on the shot, otherwise it wont start
     profile: rotshot_profile
   
   shot_leftlane:
@@ -21,9 +21,9 @@ shots:
     show_tokens:
       led: led_45
     control_events:
-      - events: multiball_multiball1_started
+      - events: multiball_multiball1_started, mode_target_mb_ended #control events to clear the state of shot
         state: 0
-    advance_events: advance_shot_leftlane
+    advance_events: advance_shot_leftlane #useless?
     profile: rotshot_profile
   
   shot_rightlane:
@@ -31,17 +31,26 @@ shots:
     show_tokens:
       led: led_39
     control_events:
-      - events: multiball_multiball1_started
+      - events: multiball_multiball1_started, mode_target_mb_ended #control events to clear the state of shot
         state: 0
-    advance_events: advance_shot_rightlane
+    advance_events: advance_shot_rightlane #useless?
     profile: rotshot_profile
 
 multiballs:
   multiball1:
+    label: 2 Ball Multiball with Addball
+    ball_count: 1
+    ball_count_type: add
+    shoot_again: 15s
+    start_events: shot_ramp_on_hit, shot_rightlane_on_hit
+    add_a_ball_events: mb_addball
+    add_a_ball_shoot_again: 10s
+  multiball2:
+    label: All Ball Multiball
     ball_count: 3
     ball_count_type: add
     shoot_again: 30s
-    start_events: mb_shots_on_hit
+    start_events: shot_leftlane_on_hit
 
 shot_profiles:
   rotshot_profile:
@@ -60,4 +69,22 @@ shot_groups:
       - shot_ramp
       - shot_leftlane
       - shot_rightlane
-    rotate_events: s_popbumper_1_active, s_popbumper_2_active, s_popbumper_3_active
+    rotate_events: s_popbumper_1_active, s_popbumper_2_active, s_popbumper_3_active, test_event1
+
+accruals:
+  lb_mb_addball:
+    events:
+      - shot_2_hit
+      - shot_3_hit
+    events_when_complete: mb_addball
+    reset_on_complete: true
+    restart_events: mode_target_mb_stopped
+
+light_player:
+  ball_save_multiball1_timer_start:
+    led_51: red
+  multiball_multiball1_shoot_again_ended:
+    led_51: off
+  ball_save_multiball1_add_a_ball_timer_start:
+    led_51: red
+  
