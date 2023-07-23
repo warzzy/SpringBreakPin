@@ -63,4 +63,8 @@ switches:
     number: 1-0-44
   s_dt_right_3:
     number: 1-0-45
+  s_upkicker_detect:
+    number: 1-0-46
+  s_ramp_transfer:
+    number: 1-0-47
   
