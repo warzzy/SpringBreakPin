@@ -69,3 +69,16 @@ accruals:
 event_player:
   mode_target_mb_stopped: enable_mode_target_mb
 
+queue_relay_player:
+  ball_ending:
+    post: start_ball_ending_show
+    wait_for: mode_ball_ending_show_ended
+
+show_player:
+  start_ball_ending_show:
+    ball_ending_show:
+      loops: 0
+      events_when_stopped: mode_ball_ending_show_ended
+  mode_base_started: 
+    base_loop_chase:
+      speed: 10
