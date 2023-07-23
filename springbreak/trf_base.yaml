@@ -1,0 +1,71 @@
+#config_version=5
+##! mode: my_mode
+mode:
+  start_events: ball_started
+  priority: 100
+
+shots:
+  shot_1:
+    switch: s_target_1
+    show_tokens: 
+      led: led_44
+    control_events:
+      - events: mode_target_mb_started, ball_ending
+        state: 0
+  shot_2:
+    switch: s_target_2
+    show_tokens: 
+      led: led_68
+    control_events:
+      - events: mode_target_mb_started, ball_ending
+        state: 0
+  shot_3:
+    switch: s_target_3
+    show_tokens: 
+      led: led_38
+    control_events:
+      - events: mode_target_mb_started, ball_ending
+        state: 0
+
+shot_profiles:
+  swingshot_profile:
+    advance_on_hit: false
+    states:
+      - name: unlit
+        show: off
+      - name: lit
+        show: led_color
+        show_tokens: 
+          color: red
+      - name: hit
+        show: "flash"
+        show_tokens: 
+          color: yellow
+
+variable_player:
+  shot_1_unlit_hit:
+    score: 10000
+  shot_1_lit_hit:
+    score: 500
+  shot_2_unlit_hit:
+    score: 10000
+  shot_2_lit_hit:
+    score: 500
+  shot_3_unlit_hit:
+    score: 10000
+  shot_3_lit_hit:
+    score: 500
+
+accruals:
+  lb_target_mb:
+    events:
+      - shot_1_hit
+      - shot_2_hit
+      - shot_3_hit
+    events_when_complete: target_mb_start
+    reset_on_complete: true
+    restart_events: mode_target_mb_stopped
+
+event_player:
+  mode_target_mb_stopped: enable_mode_target_mb
+
