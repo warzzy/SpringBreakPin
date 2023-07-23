@@ -1,0 +1,60 @@
+#config_version=5
+##! mode: skillshot
+mode:
+  start_events: ball_started
+  stop_events: skillshot_awarded
+  priority: 200
+
+
+shots:
+  skillshot_10:
+    switch: s_plunger_exit
+    advance_events: mode_skillshot_started
+    show_tokens: 
+      led: led_37
+  skillshot_20:
+    switch: s_plunger_exit
+    show_tokens: 
+      led: led_36
+    control_events:
+      - events: mode_skillshot_started
+        state: 0
+  skillshot_100:
+    switch: s_plunger_exit
+    show_tokens: 
+      led: led_34
+    control_events:
+      - events: mode_skillshot_started
+        state: 0
+  
+
+shot_groups:
+  skillshot:
+    shots:
+    - skillshot_10
+    - skillshot_20
+    - skillshot_100
+    rotate_events: timer_t_skillshot_tick
+
+
+timers:
+  t_skillshot:
+    start_value: 0
+    tick_interval: 1s
+    start_running: true
+
+variable_player:
+  skillshot_10_lit_hit:
+    score: 10000
+  skillshot_20_lit_hit:
+    score: 20000
+  skillshot_100_lit_hit:
+    score: 100000
+
+event_player:
+  skillshot_10_lit_hit:
+    - skillshot_awarded
+  skillshot_20_lit_hit:
+    - skillshot_awarded
+  skillshot_100_lit_hit:
+    - skillshot_awarded
