@@ -1,0 +1,65 @@
+#config_version=5
+##! mode: vacation
+mode:
+  start_events: ball_started
+  priority: 110
+
+
+counters:
+  vacation:
+    starting_count: 0
+    count_events: test_event1, drop_target_bank_dt_left_down, drop_target_bank_dt_right_down
+    reset_on_complete: false
+    count_complete_value: 8
+    events_when_complete: vacation_completed
+    restart_events: extra_ball_vacation_extraball_awarded
+
+light_player:
+  logicblock_vacation_updated{value == 0}: 
+    led_66: off
+    led_64: off
+    led_62: off
+    led_60: off
+    led_58: off
+    led_56: off
+    led_54: off
+    led_52: off
+  logicblock_vacation_updated{value == 1}: 
+    led_66: yellow
+  logicblock_vacation_updated{value == 2}: 
+    led_64: yellow
+  logicblock_vacation_updated{value == 3}: 
+    led_62: yellow
+  logicblock_vacation_updated{value == 4}: 
+    led_60: yellow
+  logicblock_vacation_updated{value == 5}: 
+    led_58: yellow
+  logicblock_vacation_updated{value == 6}: 
+    led_56: yellow
+  logicblock_vacation_updated{value == 7}: 
+    led_54: yellow
+  logicblock_vacation_updated{value == 8}: 
+    led_52: yellow
+  extra_ball_vacation_extraball_lit:
+    led_70: red
+  extra_ball_vacation_extraball_awarded:
+    led_70: off
+    led_66: off
+    led_64: off
+    led_62: off
+    led_60: off
+    led_58: off
+    led_56: off
+    led_54: off
+    led_52: off
+
+  
+variable_player:
+  ball_drain:
+    score: 50000 * (device.counters.vacation.value)
+
+extra_balls:
+  vacation_extraball:
+    max_per_game: 6
+    award_events: s_ramp_active
+    light_events: vacation_completed
